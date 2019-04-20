@@ -4,10 +4,10 @@
 #
 Name     : perl-namespace-clean
 Version  : 0.27
-Release  : 13
+Release  : 14
 URL      : http://search.cpan.org/CPAN/authors/id/R/RI/RIBASUSHI/namespace-clean-0.27.tar.gz
 Source0  : http://search.cpan.org/CPAN/authors/id/R/RI/RIBASUSHI/namespace-clean-0.27.tar.gz
-Summary  : 'Keep imports and functions out of your namespace'
+Summary  : Keep imports and functions out of your namespace
 Group    : Development/Tools
 License  : Artistic-1.0-Perl
 BuildRequires : buildreq-cpan
@@ -26,6 +26,7 @@ No detailed description available
 Summary: dev components for the perl-namespace-clean package.
 Group: Development
 Provides: perl-namespace-clean-devel = %{version}-%{release}
+Requires: perl-namespace-clean = %{version}-%{release}
 
 %description dev
 dev components for the perl-namespace-clean package.
