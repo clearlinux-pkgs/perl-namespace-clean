@@ -4,7 +4,7 @@
 #
 Name     : perl-namespace-clean
 Version  : 0.27
-Release  : 18
+Release  : 19
 URL      : http://search.cpan.org/CPAN/authors/id/R/RI/RIBASUSHI/namespace-clean-0.27.tar.gz
 Source0  : http://search.cpan.org/CPAN/authors/id/R/RI/RIBASUSHI/namespace-clean-0.27.tar.gz
 Summary  : 'Keep imports and functions out of your namespace'
@@ -87,5 +87,5 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.32.1/namespace/clean.pm
-/usr/lib/perl5/vendor_perl/5.32.1/namespace/clean/_Util.pm
+/usr/lib/perl5/vendor_perl/5.34.0/namespace/clean.pm
+/usr/lib/perl5/vendor_perl/5.34.0/namespace/clean/_Util.pm
