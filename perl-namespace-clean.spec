@@ -4,7 +4,7 @@
 #
 Name     : perl-namespace-clean
 Version  : 0.27
-Release  : 22
+Release  : 23
 URL      : http://search.cpan.org/CPAN/authors/id/R/RI/RIBASUSHI/namespace-clean-0.27.tar.gz
 Source0  : http://search.cpan.org/CPAN/authors/id/R/RI/RIBASUSHI/namespace-clean-0.27.tar.gz
 Summary  : 'Keep imports and functions out of your namespace'
